@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de Temp (°C/ °F/ K) - Desafio A2</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Conversor de temperaturas
+  </h1>
+  <p class="page-subtitle">
+    Insira a temperatura em Celcius °C e escolha a escala termométrica para fazer a conversão.
+  </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+  <input type="number" id="temperaturaCelcius" size="2" placeholder="Insira a temperatura (°C)" /><br>
+  <input class="opcoes" type="radio" name="opcoes" value="Fahrenheit" />Fahrenheit (°F)<br>
+  <input class="opcoes" type="radio" name="opcoes" value="Kelvin" />Kelvin (K)<br>
+  <button type="submit" onclick="Converter()">Converter</button>
+  <h2 id="valorConvertido1"></h2>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
